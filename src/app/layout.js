@@ -1,7 +1,7 @@
 import Navpar from '@/components/navpar/Navpar'
 import './globals.css'
 import { Inter } from 'next/font/google'
-import Footer from '@/components/footer/footer'
+import Footer from '@/components/footer/Footer'
 import { ThemeContextProvider } from '../../context/ThemContext'
 import ThemeProvider from '../../providers/ThemeProvider'
 import Head from 'next/head'
