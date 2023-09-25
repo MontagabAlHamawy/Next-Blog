@@ -1,0 +1,53 @@
+.buttom{
+    background: var(--bg-bu);
+    color: var(--bg);
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 14px ;
+    border: none;
+    border-radius: 5px;
+    width: max-content;
+}
+.Links{
+    display: flex;
+    gap: 20px;
+}
+
+.burger{
+    width: 20px;
+    height: 16px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.respons{
+    z-index: 999;
+    position: fixed;
+    top: 101px;
+    left: 0;
+    background: var(--bg);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition:  0.5s;
+    gap: 50px;
+    font-size: 25px;
+}
+
+.line{
+    width: 100%;
+    height: 2px;
+    background: var(--TextColor);
+}
+@media screen and (max-width:680px) {
+    .hed{
+        display: none;
+    }
+    .burger{
+        display: flex;
+    }
+}

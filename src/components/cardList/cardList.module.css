@@ -1,0 +1,8 @@
+.container{
+    flex: 5;
+    margin: 0 -40px 0 0;
+}
+
+.title {
+    font-size: 30px;
+}
