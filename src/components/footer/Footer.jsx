@@ -10,7 +10,7 @@ function Footer() {
       <div className={styles.cont}>
         <div className={styles.footerInfo}>
           <div className={styles.footerLogo}>
-            <Image src='/klinder.png' alt='' width={120} height={50} className={styles.footerimg} />
+            <Image src='/public/klinder.png' alt='' width={120} height={50} className={styles.footerimg} />
           </div>
           <p className={styles.footerDes}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
