@@ -20,7 +20,7 @@ function Menubar() {
             {open &&
                 <div className={styles.respons}>
                     <div className={styles.container}>
-                        <h2 className={styles.short}>What's hot</h2>
+                        <h2 className={styles.short}>{"What's hot"}</h2>
                         <h1 className={styles.title}>Most Popular:</h1>
                         <div className={styles.items}>
                             <Link href='/' className={styles.item}>
