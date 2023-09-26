@@ -1,6 +1,6 @@
 :root {
   --bg: #fff;
-  --navbar-bg:#dddddd;
+  --navbar-bg:#d3d0d0;
   --TextColor: #000;
   --SoftBg: #f0f0f0;
   --SoftTextColor: #626262;
@@ -70,8 +70,8 @@ a {
   max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 @media screen and (max-width:1100px) {

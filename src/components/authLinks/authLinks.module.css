@@ -24,7 +24,7 @@
 .respons{
     z-index: 999;
     position: fixed;
-    top: 101px;
+    top: 100px;
     left: 0;
     background: var(--bg);
     height: 100vh;
@@ -50,4 +50,5 @@
     .burger{
         display: flex;
     }
+   
 }

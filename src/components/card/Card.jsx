@@ -14,7 +14,7 @@ function Card() {
                     <div className={styles.textContainer}>
                         <div className={styles.day}>
                         <span className={styles.date}>11.02.2023</span>
-                        <span className={styles.category}>CULTURE</span>
+                        <span className={styles.category}><Link href='/culture'>CULTURE</Link></span>
                         </div>
                         <h1 className={styles.postTitle}>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h1>
                         <p className={styles.postDesc}>Lorem ipsum dolor sit amet consectetur adipisicing elit.

@@ -1,3 +1,27 @@
-.container{
+.container {
     flex: 2;
+    margin-top: -20px;
+}
+
+.short {
+    margin-top: 30px;
+    font-size: 14px;
+    color: var(--SoftTextColor);
+    font-weight: 300;
+}
+
+.title {
+    font-size: 18px;
+
+}
+
+.scarImg {
+    border-radius: 50%;
+    width: 100%;
+}
+
+@media screen and (max-width:1024px) {
+    .container {
+        display: none;
+    }
 }

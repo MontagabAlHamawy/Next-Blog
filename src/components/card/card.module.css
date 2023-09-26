@@ -58,3 +58,39 @@
     width: max-content;
     font-size: 17px;
 }
+@media screen and (max-width:1024px) {
+    .container{
+        margin: 20px 32px;
+    }
+    .imgContainer{
+        height: 250px;
+    }
+    .image{
+        object-fit: cover;
+    }
+    .textContainer{
+        gap: 10px;
+    }
+    .postTitle{
+        font-size: 16px;
+    }
+    .date , .category , .link{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .post{
+        flex-direction: column;
+        margin:  0 ;
+    }
+    .imgContainer{
+        display: none;
+    }
+    .day{
+        justify-content: space-between;
+    }
+    .link{
+        text-align: center;
+    }
+}
