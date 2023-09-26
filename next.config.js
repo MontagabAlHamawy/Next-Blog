@@ -1,6 +1,19 @@
+const path = require('path');
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-}
+  // إعدادات أخرى إذا كنت بحاجة إليها
+  // ...
 
-module.exports = nextConfig
+  // إعدادات الإخراج (output) للتصدير الثابت
+  output: {
+    // مسار المجلد الذي سيتم تصدير الملفات إليه
+    // يمكنك تغييره حسب احتياجاتك
+    path: path.join(__dirname, 'out'),
+
+    // ضبط أي إعدادات إضافية هنا
+    // ...
+  },
+};
+
+module.exports = nextConfig;
