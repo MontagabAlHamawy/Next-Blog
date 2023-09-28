@@ -1,0 +1,48 @@
+.continer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #76c4c6;
+    height: 100%;
+  }
+
+.lines {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .line {
+    width: 30px;
+    height: 100px;
+    background-color: white;
+    animation: LinesAnimation 1s infinite ease-in-out;
+  }
+  
+  @keyframes LinesAnimation {
+    0% {
+      transform: none;
+    }
+    50% {
+      transform: scaleY(2);
+    }
+    100% {
+      transform: none;
+    }
+  }
+  
+  .line:nth-child(2) {
+    animation-delay: 0.1s;
+  }
+  
+  .line:nth-child(3) {
+    animation-delay: 0.2s;
+  }
+  .line:nth-child(4) {
+    animation-delay: 0.3s;
+  }
+  
+  .line:nth-child(5) {
+    animation-delay: 0.4s;
+  }
+  

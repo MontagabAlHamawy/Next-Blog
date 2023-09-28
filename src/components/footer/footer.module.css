@@ -11,15 +11,17 @@
     gap: 20px;
     margin-bottom: 10px;
 }
-.colfooter{
+
+.colfooter {
     margin-right: 30px;
     padding: 10px 10px 0;
 }
 
-.develop{
+.develop {
     font-size: 17px;
     text-align: center;
 }
+
 .footerInfo {
     margin-top: -10px;
     flex: 5;
@@ -66,6 +68,13 @@
     font-weight: 500;
 }
 
+.footerLinkss {
+    flex: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .footerLink {
     font-size: 13px;
     font-weight: 400;
@@ -75,7 +84,7 @@
 
 @media screen and (max-width:1024px) {
     .container {
-
+        justify-content: center;
         padding: 30px 20px;
     }
 
@@ -86,20 +95,22 @@
     .footerInfo {
         flex: 3;
     }
-    .colfooter{
+
+    .colfooter {
         border: none;
         margin-bottom: -10px;
     }
-    
-    .develop{
+
+    .develop {
         font-size: 15px;
     }
 }
 
 @media screen and (max-width:760px) {
-    .container{
-        margin: 10px -7px 0;
+    .container {
+        margin: 10px 1px 0 0;
     }
+
     .cont {
         flex-direction: column;
         gap: 35px;

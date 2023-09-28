@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 10px 0;
+    padding: 10px ;
+    border-radius: 10px;
+    background: #4e525936;
+}
+
+.scarImg {
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.scarDet {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.scardCategory {
+    font-size: 11px;
+    border-radius: 25px;
+    background: #a04bf0;
+    width: max-content;
+    padding: 2px 5px;
+    color: #fff;
+}
+
+.scardDes {
+    font-size: 13px;
+    color: var(--SoftTextColor);
+
+}
+.scardmeta{
+    display: flex;
+    gap: 20px;
+}
+
+.scardname{
+    font-size: 13px;
+    color: #4eadfa;
+}
+
+.scardDate{
+    font-size: 13px;
+}

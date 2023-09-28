@@ -19,6 +19,7 @@ function Navpar() {
       </div>
       <div className={styles.links}>
         <Link className={styles.link} href='/'>Home</Link>
+        <Link className={styles.link} href='/blog'>Blog</Link>
         <Link className={styles.link} href='/contact'>Contact</Link>
         <Link className={styles.link} href='/about'>About</Link>
         <AuthLinks />

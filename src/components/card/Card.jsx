@@ -6,10 +6,10 @@ import Link from 'next/link'
 function Card() {
     return (
         <div className={styles.container}>
-            <Link href='/'>
+            <Link href='/blog/lorem '>
                 <div className={styles.post}>
                     <div className={styles.imgContainer}>
-                        <Image src='/travel.png' alt='p1' fill className={styles.image} />
+                        <Image src='/p1.jpeg' alt='p1'fill className={styles.image} />
                     </div>
                     <div className={styles.textContainer}>
                         <div className={styles.day}>
