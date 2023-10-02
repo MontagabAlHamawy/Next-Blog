@@ -9,8 +9,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: 'montagabalhamawy.github.io/Next-Blog',
-        domains:'https://montagabalhamawy.github.io/Next-Blog'
+        hostname: 'montagabalhamawy.github.io/Next-Blog'
       }
 
     ]
