@@ -1,10 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  images: {
-    loader: 'custom',
-    loaderFile: './my-loader.ts',
-  },
+  assetPrefix: '/Next-Blog', // مسار قاعدة المشروع على GitHub Pages
+  basePath: '/Next-Blog', // أيضا قم بتحديد basePath بنفس القيمة
 }
- 
-module.exports = nextConfig
+
+module.exports = nextConfig;
