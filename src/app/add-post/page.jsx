@@ -2,13 +2,20 @@
 
 
 import styles from './addPost.module.css';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.bubble.css';
 
 function AddPost() {
+  
   const [open, setOpen] = useState(false);
   const [value, setValue] = useState('');
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      // يتم تنفيذ الكود هنا فقط في سياق المتصفح
+      // يمكنك استخدام `document` أو الأحداث بأمان هنا
+    }
+  }, []);
 
   return (
     <div className={styles.container}>
