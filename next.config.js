@@ -11,9 +11,3 @@ const nextConfig = {
 }
 
 module.exports = withImages(nextConfig);
-// next.config.js
-module.exports = {
-  images: {
-    domains: ['example.com'], // قائمة بالنطاقات المسموح بها لعرض الصور
-  },
-};
