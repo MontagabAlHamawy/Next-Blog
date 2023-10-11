@@ -40,7 +40,7 @@
     margin: 10px;
 }
 
-.imgposts {
+.decPost img {
     width: 300px;
     object-fit: cover;
     text-align: center;
@@ -68,22 +68,28 @@
 }
 
 .button {
-    font-size: 17px;
-    font-weight: 500;
-    padding: 10px 20px;
-    border-radius: 10px;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    background: #6d56ed;
     margin: 10px 0;
+    background: var(--bg-bu);
+    color: var(--bg);
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 14px ;
+    border: none;
+    border-radius: 5px;
     width: max-content;
 }
 .comments {
     width: 400px;
 }
+.cominttitle{
+    font-size: 20px;
+    margin: 20px 0;
+}
 
 @media screen and (max-width: 860px) {
+    .imgPost{
+        height: 300px;
+    }
     .postTilte{
         font-size: 20px;
     }

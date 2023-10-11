@@ -1,10 +1,4 @@
-/**
- * @type {import('next').NextConfig}
- */
-const nextConfig = {
-  output: 'export',
-  basePath: '/Next-Blog',
-  assetPrefix: '/Next-Blog/',
+/** @type {import("next").NextConfig} */
+module.exports = {
+  reactStrictMode: true,
 }
- 
-module.exports = nextConfig

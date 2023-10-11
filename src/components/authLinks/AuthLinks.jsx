@@ -6,7 +6,7 @@ import Link from 'next/link'
 function AuthLinks() {
 
   const [open, setOpen] = useState(false)
-  const status = 'notauthenticated'
+  const status = 'notauthenticate'
   const statusAdmin = 'admin'
 
   let login = (<></>)
@@ -22,8 +22,29 @@ function AuthLinks() {
     login = (<Link href='/login' className={styles.buttom}>Login</Link>)
   } else {
     login = (<div className={styles.Links}>
-      <span className={styles.buttom}>Logout</span>
+      {/* <span className={styles.buttom}>Logout</span> */}
       {admin}
+      <Link href='/login' className={styles.buttom}>Login</Link>
+    </div>)
+  }
+
+  //dfghjkl;
+  let loginn = (<></>)
+  let adminn = (<></>)
+
+  //admin new post
+  if (statusAdmin === 'admin') {
+    adminn = (<Link href='/add-post' className={styles.buttom} onClick={() => setOpen(!open)}>AddPost</Link>)
+  }
+
+  // user status
+  if (status === 'notauthenticated') {
+    loginn = (<Link href='/login' className={styles.buttom} onClick={() => setOpen(!open)}>Login</Link>)
+  } else {
+    loginn = (<div className={styles.Links}>
+      {/* <span className={styles.buttom} onClick={() => setOpen(!open)}>Logout</span> */}
+      {adminn}
+      <Link href='/login' className={styles.buttom} onClick={() => setOpen(!open)}>Login</Link>
     </div>)
   }
 
@@ -41,11 +62,11 @@ function AuthLinks() {
       </div>
       {open &&
         <div className={styles.respons}>
-          <Link className={styles.link} href='/'>Home</Link>
-          <Link className={styles.link} href='/blog'>Blog</Link>
-          <Link className={styles.link} href='/contact'>Contact</Link>
-          <Link className={styles.link} href='/about'>About</Link>
-          {login}
+          <Link className={styles.link} onClick={() => setOpen(!open)} href='/'>Home</Link>
+          <Link className={styles.link} onClick={() => setOpen(!open)} href='/blog'>Blog</Link>
+          <Link className={styles.link} onClick={() => setOpen(!open)} href='/contact'>Contact</Link>
+          <Link className={styles.link} onClick={() => setOpen(!open)} href='/about'>About</Link>
+          {loginn}
         </div>}
     </>
   )

@@ -12,7 +12,8 @@ function CategoreListt() {
                 <Link href='/blog?cat=fashion' className={`${styles.category} ${styles.fashion}`}>
                     <p className={styles.catName}>Fashion</p>
                 </Link>
-                <Link href='/blog?cat=food' className={`${styles.category} ${styles.food}`}>          <p className={styles.catName}>Food</p>
+                <Link href='/blog?cat=food' className={`${styles.category} ${styles.food}`}>
+                    <p className={styles.catName}>Food</p>
                 </Link>
                 <Link href='/blog?cat=travel' className={`${styles.category} ${styles.travel}`}>
                     <p className={styles.catName}>Travel</p>

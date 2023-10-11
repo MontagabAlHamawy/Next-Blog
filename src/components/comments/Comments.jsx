@@ -12,11 +12,11 @@ function Comments({withImg}) {
             </div>
             )}
             <div className={styles.scarDet}>
-                <p className={styles.scardCategory}>Ahmad Ali</p>
-                <p className={styles.scardDes}>Lorem ipsum dolor sit amet consectetur</p>
                 <div className={styles.scardmeta}>
+                <p className={styles.scardCategory}>Ahmad Ali</p>
                     <span className={styles.scardDate}>05.09.2023</span>
                 </div>
+                <p className={styles.scardDes}>Lorem ipsum dolor sit amet consectetur</p>
             </div>
         </div>
     )

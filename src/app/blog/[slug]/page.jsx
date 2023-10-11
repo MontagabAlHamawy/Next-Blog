@@ -59,6 +59,7 @@ function page() {
                 </div>
             </div>
             <div className={styles.coments}>
+                <h1 className={styles.cominttitle}>Comments:</h1>
                 <input type='text' placeholder='Write Your Comment' className={styles.inputc} />
                 <button className={styles.button}>Comment</button>
             </div>

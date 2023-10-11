@@ -5,14 +5,14 @@
 }
 
 .button{
-    font-size: 17px;
-    font-weight: 500;
-    padding: 10px 20px;
-    border-radius: 10px;
-    border: none;
-    color: #fff;
+    background: var(--bg-bu);
+    color: var(--bg);
+    font-size: 16px;
     cursor: pointer;
-    background: #6d56ed;
+    padding: 10px 14px ;
+    border: none;
+    border-radius: 5px;
+    width: max-content;
 }
 @media screen and (max-width: 860px){
     .button{

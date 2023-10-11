@@ -23,22 +23,22 @@ function Menubar() {
                         <h2 className={styles.short}>{"What's hot"}</h2>
                         <h1 className={styles.title}>Most Popular:</h1>
                         <div className={styles.items}>
-                            <Link href='/' className={styles.item}>
+                            <Link onClick={() => setOpen(!open)} href='/' className={styles.item}>
                                 <SmalCard withImg={false} />
                             </Link>
-                            <Link href='/' className={styles.item}>
+                            <Link onClick={() => setOpen(!open)} href='/' className={styles.item}>
                                 <SmalCard withImg={false} />
                             </Link>
-                            <Link href='/' className={styles.item}>
+                            <Link onClick={() => setOpen(!open)} href='/' className={styles.item}>
                                 <SmalCard withImg={false} />
                             </Link>
-                            <Link href='/' className={styles.item}>
+                            <Link onClick={() => setOpen(!open)} href='/' className={styles.item}>
                                 <SmalCard withImg={false} />
                             </Link>
-                            <Link href='/' className={styles.item}>
+                            <Link onClick={() => setOpen(!open)} href='/' className={styles.item}>
                                 <SmalCard withImg={false} />
                             </Link>
-                            <Link href='/' className={styles.item}>
+                            <Link onClick={() => setOpen(!open)} href='/' className={styles.item}>
                                 <SmalCard withImg={false} />
                             </Link>
                         </div>
@@ -49,22 +49,22 @@ function Menubar() {
                         <h2 className={styles.short}>Choser by the editor</h2>
                         <h1 className={styles.title}>Editor Pick:</h1>
                         <div className={styles.items}>
-                            <Link href='/' className={styles.item}>
+                            <Link onClick={() => setOpen(!open)} href='/' className={styles.item}>
                                 <SmalCard withImg={true} />
                             </Link>
-                            <Link href='/' className={styles.item}>
+                            <Link onClick={() => setOpen(!open)} href='/' className={styles.item}>
                                 <SmalCard withImg={true} />
                             </Link>
-                            <Link href='/' className={styles.item}>
+                            <Link onClick={() => setOpen(!open)} href='/' className={styles.item}>
                                 <SmalCard withImg={true} />
                             </Link>
-                            <Link href='/' className={styles.item}>
+                            <Link onClick={() => setOpen(!open)} href='/' className={styles.item}>
                                 <SmalCard withImg={true} />
                             </Link>
-                            <Link href='/' className={styles.item}>
+                            <Link onClick={() => setOpen(!open)} href='/' className={styles.item}>
                                 <SmalCard withImg={true} />
                             </Link>
-                            <Link href='/' className={styles.item}>
+                            <Link onClick={() => setOpen(!open)} href='/' className={styles.item}>
                                 <SmalCard withImg={true} />
                             </Link>
                         </div>

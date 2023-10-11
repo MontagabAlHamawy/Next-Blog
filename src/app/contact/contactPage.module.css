@@ -1,0 +1,138 @@
+.container {
+    margin: 20px 0;
+}
+
+.headImg {
+    height: 500px;
+    width: 100%;
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+    margin: 5px 0 20px;
+    object-fit: fill;
+}
+
+.conten{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.titlePage{
+    text-align: center;
+    margin: 20px;
+}
+
+
+.title{
+    font-size: 35px;
+}
+
+.wrapper{
+    background: var(--bg-cont);
+    padding: 80px 70px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    flex: 5;
+}
+.wrapperr{
+    background: var(--bg-cont);
+    padding: 80px 70px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    flex: 3;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.socialButton{
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+}
+
+.but1{
+    background: #f13535;
+}
+.but2{
+    background: #0a192e;
+    margin: 39px 0;
+}
+.but3{
+    background: #0e29a1;
+}
+
+.cominttitle{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.inputc {
+    padding: 0 10px;
+    margin-top: -10px ;
+    width: 340px;
+    height: 40px;
+    border: 1px solid #d8d8d8;
+    border-radius: 15px;
+}
+.inputcc {
+    padding: 0 10px;
+    margin-top: -10px ;
+    width: 340px;
+    height: 100px;
+    border: 1px solid #d8d8d8;
+    border-radius: 15px;
+}
+
+.button {
+    margin: 20px 0 10px;
+    background: var(--bg-bu);
+    color: var(--bg);
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 14px ;
+    border: none;
+    border-radius: 5px;
+    width: max-content;
+}
+@media screen and (max-width:860px) {
+    .title{
+        font-size: 26px;
+    }
+    
+    .wrapper{
+        padding: 70px 50px;
+        gap: 30px;
+    }
+
+    .socialButton{
+        padding: 10px;
+        font-family: 400;
+        font-size: 16px;
+
+    }
+    .conten{
+        flex-direction: column;
+    }
+    .inputc{
+        margin-top: -40px;
+    }
+    .inputcc{
+        margin-top: -40px;
+    }
+    .button {
+        margin: 5px;
+    }
+    .postTilte{
+        font-size: 20px;
+    }
+}

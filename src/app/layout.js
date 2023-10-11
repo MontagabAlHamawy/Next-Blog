@@ -13,6 +13,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'Blog App',
   description: 'The best blog app!',
+  icon:'/coding.png'
 }
 
 export default function RootLayout({ children }) {

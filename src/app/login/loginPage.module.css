@@ -1,0 +1,108 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    flex-direction: column;
+}
+.conten{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.titlePage{
+    text-align: center;
+    margin: 20px;
+}
+
+
+.title{
+    font-size: 35px;
+}
+
+.wrapper{
+    background: var(--bg-cont);
+    padding: 80px 70px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    flex: 5;
+}
+
+.socialButton{
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+}
+
+.but1{
+    background: #f13535;
+}
+.but2{
+    background: #0a192e;
+    margin: 39px 0;
+}
+.but3{
+    background: #0e29a1;
+}
+
+.cominttitle{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.inputc {
+    padding: 0 10px;
+    margin-top: -10px ;
+    width: 250px;
+    height: 40px;
+    border: 1px solid #d8d8d8;
+    border-radius: 15px;
+}
+
+.button {
+    margin: 20px 0 10px;
+    background: var(--bg-bu);
+    color: var(--bg);
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 14px ;
+    border: none;
+    border-radius: 5px;
+    width: max-content;
+}
+@media screen and (max-width:860px) {
+    .title{
+        font-size: 26px;
+    }
+    
+    .wrapper{
+        padding: 70px 50px;
+        gap: 30px;
+    }
+
+    .socialButton{
+        padding: 10px;
+        font-family: 400;
+        font-size: 16px;
+
+    }
+    .conten{
+        flex-direction: column;
+    }
+    .inputc{
+        width: 215px;
+        margin-top: -40px;
+    }
+    .button {
+        margin: 5px;
+    }
+    .postTilte{
+        font-size: 20px;
+    }
+}

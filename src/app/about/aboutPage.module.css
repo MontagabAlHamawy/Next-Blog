@@ -1,0 +1,56 @@
+.container {
+    margin: 20px 0;
+}
+
+.headImg {
+    height: 500px;
+    width: 100%;
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+    margin: 5px 0 20px;
+}
+
+.maindes {
+    font-size: 18px;
+
+}
+
+.descre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+    background-color: var(--bg-cont);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.desImg {
+    border-radius: 15px;
+    margin: 10px;
+    width: 300px;
+}
+
+@media screen and (max-width:1024px) {
+    .descre  {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:860px) {
+    .headImg{
+        height: 300px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .desp{
+        font-size: 15px;
+    }
+    .descre{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
