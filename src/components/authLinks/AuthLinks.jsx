@@ -12,11 +12,6 @@ function AuthLinks() {
   let login = (<></>)
   let admin = (<></>)
 
-  //admin new post
-  if (statusAdmin === 'admin') {
-    admin = (<Link href='/add-post' className={styles.buttom}>AddPost</Link>)
-  }
-
   // user status
   if (status === 'notauthenticated') {
     login = (<Link href='/login' className={styles.buttom}>Login</Link>)
