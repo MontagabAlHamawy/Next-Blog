@@ -2,5 +2,6 @@
 const nextConfig = {
   // distDir: "build",
   // productionBrowserSourceMaps: true,
+  output: "export"
 };
 module.exports = nextConfig;
