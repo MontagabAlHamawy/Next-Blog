@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // distDir: "build",
-  // productionBrowserSourceMaps: true,
-  output: "export"
+  output: "export",
 };
+
 module.exports = nextConfig;
